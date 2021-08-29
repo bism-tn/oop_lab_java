@@ -5,9 +5,7 @@ class book {
     int price;
     String Publisher;
     
-    book(){
-
-    }
+    
 
     book(int isbn, String title, String author, int price, String publisher) {
         this.ISBN = isbn;

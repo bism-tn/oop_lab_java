@@ -6,8 +6,8 @@ public class complex {
         this.real = real_get;
         this.imaginary = imag_get;
     }
-    public static complex sum(p4 c1,p4 c2){
-        p4 temp = new p4(0,0);
+    public static complex sum(complex c1,complex c2){
+        complex temp = new complex(0,0);
         temp.real = c1.real + c2.real;
         temp.imaginary = c1.imaginary + c2.imaginary;
         return temp;
